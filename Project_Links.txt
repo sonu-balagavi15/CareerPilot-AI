@@ -1,0 +1,17 @@
+CareerPilot AI - Final Project Links
+
+GitHub Repository:
+https://github.com/sonu-balagavi15/CareerPilot-AI
+
+
+Frontend Live Demo:
+https://career-pilot-ai-chi.vercel.app/
+
+
+Backend Swagger API:
+https://careerpilot-ai-backend-aktd.onrender.com/docs
+
+
+Developer:
+Sonu Parashuram Balagavi
+AGM Rural College of Engineering and Technology
