@@ -41,7 +41,7 @@ The platform provides personalized career support through:
 
 ## 🚀 Frontend
 
-https://career-pilot-ai-chi.vercel.app
+https://career-pilot-q4txgjis3-sonu-balagavi15s-projects.vercel.app
 
 
 ## ⚡ Backend API Documentation
