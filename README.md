@@ -1,151 +1,164 @@
 # 🚀 CareerPilot AI
 
-## AI Powered Career Assistant
+> **An AI-Powered Career Assistant for Students and Job Seekers**
 
-CareerPilot AI is a full-stack AI-based career assistant platform that helps students and job seekers improve their career journey using Artificial Intelligence.
-
-It provides resume analysis, ATS scoring, AI interview preparation, skill gap analysis, job recommendations, application tracking, and AI-generated cover letters.
+CareerPilot AI is a full-stack web application that helps users improve their career readiness using Artificial Intelligence. It provides AI-powered resume analysis, ATS scoring, interview preparation, job recommendations, skill gap analysis, application tracking, and cover letter generation through an intuitive dashboard.
 
 ---
 
 ## 🌐 Live Demo
 
-Frontend:
+### 🚀 Frontend
 https://career-pilot-ai-chi.vercel.app
 
-Backend API Documentation:
+### ⚡ Backend API (Swagger Docs)
 https://careerpilot-ai-backend-aktd.onrender.com/docs
 
-GitHub Repository:
+### 💻 GitHub Repository
 https://github.com/sonu-balagavi15/CareerPilot-AI
 
 ---
 
 # ✨ Features
 
-## 🔐 Authentication
-- User Registration
-- Secure Login
-- JWT Token Authentication
-- Protected User Dashboard
+## 🔐 User Authentication
+- Secure User Registration
+- User Login
+- JWT Authentication
+- Protected Dashboard
 
 ---
 
 ## 📄 AI Resume Analyzer
-
-- Upload Resume (PDF/DOCX)
-- Extract Resume Content
+- Upload PDF/DOCX Resume
+- Resume Text Extraction
 - ATS Score Calculation
-- Identify Skills
-- Find Missing Skills
-- AI Resume Improvement Suggestions
-- Career Roadmap Generation
+- Skill Identification
+- Missing Skill Detection
+- AI Resume Suggestions
+- Personalized Learning Roadmap
 
 ---
 
 ## 📊 Career Dashboard
-
 - User Profile Overview
 - Career Progress Tracking
-- Completed Activities Tracking
 - Resume Analysis History
+- Completed Activities
 
 ---
 
-## 🤖 AI Career Chat Assistant
-
-- AI powered career guidance
-- Ask career-related questions
-- Get personalized suggestions
+## 🤖 AI Career Chat
+- Career Guidance
+- Technical Doubt Solving
+- AI Career Suggestions
+- Personalized Responses
 
 ---
 
 ## 🎤 AI Interview Coach
-
-- Generate interview questions
-- Provide sample answers
-- Prepare for technical interviews
-- Role-based interview preparation
-
----
-
-## 💼 Job Recommendation System
-
-- Skill-based job recommendations
-- Suggest suitable career roles
-- Helps users identify opportunities
+- Role-Based Interview Questions
+- Sample Answers
+- Technical Topics
+- HR Interview Preparation
 
 ---
 
-## 📈 Skill Gap Analyzer
-
-- Compare current skills with target role
-- Identify missing skills
-- Recommend learning areas
+## 💼 AI Job Recommendation
+- Skill-Based Job Suggestions
+- Career Role Recommendations
+- Beginner-Friendly Opportunities
 
 ---
 
-## 📝 Resume Match Score
+## 📈 Skill Gap Analysis
+- Compare Skills with Target Role
+- Missing Skill Identification
+- Learning Recommendations
 
-- Compare skills with job role requirements
-- Calculate resume compatibility score
+---
+
+## 📑 Resume Match Score
+- Match Resume with Target Job
+- Resume Compatibility Percentage
 
 ---
 
 ## 📋 Application Tracker
-
-- Add job applications
-- Track application status
-- Maintain career records
+- Add Job Applications
+- Track Application Status
+- Manage Applied Companies
 
 ---
 
 ## ✉️ AI Cover Letter Generator
+Generate professional cover letters using:
+- Name
+- Company
+- Role
+- Skills
 
-- Generate professional cover letters
-- Customize based on:
-  - Name
-  - Company
-  - Job Role
-  - Skills
+---
+
+# 🖼️ Project Screenshots
+
+## 🏠 Home Page
+
+![Home](screenshots/homepage.png)
+
+---
+
+## 🤖 AI Chat
+
+![AI Chat](screenshots/aichat%20page.png)
+
+---
+
+## 💼 Job Recommendation
+
+![Jobs](screenshots/job%20page.png)
+
+---
+
+## 📋 Applications
+
+![Applications](screenshots/application.png)
+
+---
+
+## 👤 Profile
+
+![Profile](screenshots/profilepage.png)
 
 ---
 
 # 🛠️ Tech Stack
 
 ## Frontend
-
 - React.js
 - Vite
 - JavaScript
-- CSS
-- Axios / Fetch API
+- CSS3
+- Fetch API
 
 ## Backend
-
 - FastAPI
 - Python
 - SQLAlchemy
 - JWT Authentication
 
 ## Database
+- SQLite
 
-- SQLite / PostgreSQL
-
-## AI & ML
-
+## AI & NLP
 - AI API Integration
-- NLP Resume Processing
+- Resume Text Extraction
 - ATS Score Algorithm
-- Skill Matching
+- Skill Gap Analysis
 
 ## Deployment
-
-Frontend:
-- Vercel
-
-Backend:
-- Render
+- Vercel (Frontend)
+- Render (Backend)
 
 ---
 
@@ -153,35 +166,43 @@ Backend:
 
 ```
 CareerPilot-AI
-
-│
-├── frontend
-│   ├── src
-│   │   ├── App.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── ResumeUpload.jsx
-│   │   ├── InterviewCoach.jsx
-│   │   ├── Jobs.jsx
-│   │   ├── CoverLetter.jsx
-│   │   └── Applications.jsx
 │
 ├── backend
 │   ├── main.py
-│   ├── models.py
-│   ├── database.py
 │   ├── auth.py
-│   ├── jwt_token.py
+│   ├── database.py
+│   ├── models.py
 │   ├── resume_analyzer.py
 │   ├── ats_score.py
 │   ├── skill_gap.py
-│   └── job_recommender.py
+│   ├── resume_score.py
+│   ├── job_recommender.py
+│   └── ...
+│
+├── frontend
+│   ├── src
+│   │   ├── Dashboard.jsx
+│   │   ├── ResumeUpload.jsx
+│   │   ├── Chat.jsx
+│   │   ├── Jobs.jsx
+│   │   ├── Applications.jsx
+│   │   ├── CoverLetter.jsx
+│   │   ├── Profile.jsx
+│   │   └── ...
+│
+├── screenshots
+│   ├── homepage.png
+│   ├── aichat page.png
+│   ├── job page.png
+│   ├── application.png
+│   └── profilepage.png
 │
 └── README.md
 ```
 
 ---
 
-# ⚙️ Installation & Setup
+# ⚙️ Installation
 
 ## Clone Repository
 
@@ -193,69 +214,71 @@ cd CareerPilot-AI
 
 ---
 
-# Backend Setup
-
-Navigate:
+## Backend Setup
 
 ```bash
 cd backend
 ```
 
-Create virtual environment:
+Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate:
+Activate
 
-Windows:
+Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run backend:
+Run FastAPI
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Backend runs on:
+Backend URL
 
 ```
 http://127.0.0.1:8000
 ```
 
+Swagger Documentation
+
+```
+http://127.0.0.1:8000/docs
+```
+
 ---
 
-# Frontend Setup
-
-Navigate:
+## Frontend Setup
 
 ```bash
 cd frontend
 ```
 
-Install packages:
+Install packages
 
 ```bash
 npm install
 ```
 
-Run:
+Run
 
 ```bash
 npm run dev
 ```
 
-Frontend runs on:
+Frontend URL
 
 ```
 http://localhost:5173
@@ -266,45 +289,58 @@ http://localhost:5173
 # 🔌 API Endpoints
 
 | Method | Endpoint | Description |
-|---|---|---|
-| POST | /register | Register User |
-| POST | /login | User Login |
-| POST | /chat | AI Chat |
-| POST | /analyze-resume | Resume Analysis |
-| POST | /interview | Interview Preparation |
-| POST | /jobs | Job Recommendation |
-| POST | /skill-gap | Skill Gap Analysis |
-| POST | /resume-match | Resume Match Score |
-| GET | /dashboard | Career Dashboard |
-| GET | /history | Analysis History |
-| POST | /applications | Add Application |
-| GET | /applications | View Applications |
-| POST | /cover-letter | Generate Cover Letter |
+|---------|----------|-------------|
+| POST | `/register` | Register User |
+| POST | `/login` | User Login |
+| POST | `/chat` | AI Chat |
+| POST | `/analyze-resume` | Resume Analysis |
+| POST | `/interview` | AI Interview Coach |
+| POST | `/jobs` | Job Recommendations |
+| POST | `/skill-gap` | Skill Gap Analysis |
+| POST | `/resume-match` | Resume Match Score |
+| GET | `/dashboard` | Dashboard |
+| GET | `/history` | User History |
+| GET | `/applications` | Get Applications |
+| POST | `/applications` | Add Application |
+| POST | `/cover-letter` | Generate Cover Letter |
 
 ---
 
-# 🎯 Future Enhancements
+# 🚀 Future Enhancements
 
-- AI Resume Builder
-- Real-time Job API Integration
-- LinkedIn Profile Analyzer
-- Voice Interview Practice
-- Personalized Learning Recommendations
-- Mobile Application
+- Resume Builder
+- LinkedIn Profile Analysis
+- Real-Time Job API Integration
+- AI Mock Interview with Voice
+- Resume Ranking
+- Email Notifications
+- Multi-language Support
+- Cloud Deployment on AWS
 
 ---
 
-# 👩‍💻 Developer
+# 👨‍💻 Developer
 
 **Sonu Parashuram Balagavi**
 
-Computer Science Engineering Student
+**Bachelor of Engineering (Computer Science & Engineering)**
 
 GitHub:
 https://github.com/sonu-balagavi15
 
+LinkedIn:
+_Add your LinkedIn profile URL here_
+
 ---
 
-# ⭐ Support
+# ⭐ If you found this project useful
 
-If you like this project, consider giving it a ⭐ on GitHub.
+Please consider giving this repository a **Star ⭐** on GitHub.
+
+It motivates me to build more open-source AI projects.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
