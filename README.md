@@ -1,166 +1,151 @@
 # 🚀 CareerPilot AI
 
-An AI-powered Career Guidance and Placement Preparation Platform that helps students analyze resumes, prepare for interviews, discover jobs, generate cover letters, and improve career skills using AI.
+## AI Powered Career Assistant
+
+CareerPilot AI is a full-stack AI-based career assistant platform that helps students and job seekers improve their career journey using Artificial Intelligence.
+
+It provides resume analysis, ATS scoring, AI interview preparation, skill gap analysis, job recommendations, application tracking, and AI-generated cover letters.
 
 ---
 
 ## 🌐 Live Demo
 
-### Frontend (Vercel)
+Frontend:
+https://career-pilot-ai-chi.vercel.app
 
-https://career-pilot-25v1y1xmc-sonu-balagavi15s-projects.vercel.app
-
-### Backend API (Render)
-
+Backend API Documentation:
 https://careerpilot-ai-backend-aktd.onrender.com/docs
 
----
-
-## 📂 GitHub Repository
-
+GitHub Repository:
 https://github.com/sonu-balagavi15/CareerPilot-AI
 
 ---
 
-# 📌 Features
+# ✨ Features
 
 ## 🔐 Authentication
-
 - User Registration
-- User Login
-- JWT Authentication
-- Secure Password Hashing
-- Protected API Routes
+- Secure Login
+- JWT Token Authentication
+- Protected User Dashboard
 
 ---
 
-## 📄 Resume Analyzer
+## 📄 AI Resume Analyzer
 
-- Upload Resume (PDF)
+- Upload Resume (PDF/DOCX)
+- Extract Resume Content
 - ATS Score Calculation
-- Resume Analysis using AI
-- Resume Improvement Suggestions
-- Missing Skills Detection
+- Identify Skills
+- Find Missing Skills
+- AI Resume Improvement Suggestions
+- Career Roadmap Generation
 
 ---
 
-## 📊 Dashboard
+## 📊 Career Dashboard
 
-- Career Progress
-- User Statistics
-- Profile Summary
-- AI Activity Overview
+- User Profile Overview
+- Career Progress Tracking
+- Completed Activities Tracking
+- Resume Analysis History
 
 ---
 
-## 💼 AI Job Recommendation
+## 🤖 AI Career Chat Assistant
 
-- Job Suggestions
-- Skill-Based Recommendations
-- Career Guidance
-- Placement Opportunities
+- AI powered career guidance
+- Ask career-related questions
+- Get personalized suggestions
 
 ---
 
 ## 🎤 AI Interview Coach
 
-- Technical Interview Questions
-- HR Interview Questions
-- AI Generated Answers
-- Interview Preparation
+- Generate interview questions
+- Provide sample answers
+- Prepare for technical interviews
+- Role-based interview preparation
 
 ---
 
-## 🤖 AI Career Chat
+## 💼 Job Recommendation System
 
-- Career Guidance
-- Programming Help
-- Placement Preparation
-- AI Career Assistant
-
----
-
-## 📜 History
-
-- Resume Analysis History
-- Interview History
-- AI Activity History
+- Skill-based job recommendations
+- Suggest suitable career roles
+- Helps users identify opportunities
 
 ---
 
-## 📋 Job Application Tracker
+## 📈 Skill Gap Analyzer
 
-- Add Applications
-- Track Status
-- Application History
-
----
-
-## 📝 AI Cover Letter Generator
-
-- Professional Cover Letter
-- Target Role Based
-- AI Generated Content
+- Compare current skills with target role
+- Identify missing skills
+- Recommend learning areas
 
 ---
 
-## 👤 User Profile
+## 📝 Resume Match Score
 
-- Personal Information
-- Career Goal
-- Skills
-- Target Role
+- Compare skills with job role requirements
+- Calculate resume compatibility score
 
 ---
 
-## 🌙 User Interface
+## 📋 Application Tracker
 
-- Responsive Design
-- Modern Dashboard
-- Professional UI
-- Dark Mode Support
+- Add job applications
+- Track application status
+- Maintain career records
 
 ---
 
-# 🛠 Tech Stack
+## ✉️ AI Cover Letter Generator
+
+- Generate professional cover letters
+- Customize based on:
+  - Name
+  - Company
+  - Job Role
+  - Skills
+
+---
+
+# 🛠️ Tech Stack
 
 ## Frontend
 
 - React.js
 - Vite
 - JavaScript
-- CSS3
-- HTML5
-
----
+- CSS
+- Axios / Fetch API
 
 ## Backend
 
 - FastAPI
 - Python
 - SQLAlchemy
-- SQLite
+- JWT Authentication
 
----
+## Database
 
-## Authentication
+- SQLite / PostgreSQL
 
-- JWT
-- Passlib (bcrypt)
+## AI & ML
 
----
-
-## AI Integration
-
-- OpenRouter API
-- GPT-4o Mini
-
----
+- AI API Integration
+- NLP Resume Processing
+- ATS Score Algorithm
+- Skill Matching
 
 ## Deployment
 
-- Vercel (Frontend)
-- Render (Backend)
+Frontend:
+- Vercel
+
+Backend:
+- Render
 
 ---
 
@@ -168,35 +153,35 @@ https://github.com/sonu-balagavi15/CareerPilot-AI
 
 ```
 CareerPilot-AI
-│
-├── backend
-│   ├── ai.py
-│   ├── auth.py
-│   ├── database.py
-│   ├── dependencies.py
-│   ├── job_recommender.py
-│   ├── jwt_token.py
-│   ├── main.py
-│   ├── models.py
-│   ├── resume_analyzer.py
-│   ├── resume_score.py
-│   ├── ats_score.py
-│   ├── skill_gap.py
-│   ├── requirements.txt
+
 │
 ├── frontend
-│   ├── public
 │   ├── src
-│   ├── package.json
-│   ├── vite.config.js
+│   │   ├── App.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── ResumeUpload.jsx
+│   │   ├── InterviewCoach.jsx
+│   │   ├── Jobs.jsx
+│   │   ├── CoverLetter.jsx
+│   │   └── Applications.jsx
 │
-├── .gitignore
+├── backend
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   ├── auth.py
+│   ├── jwt_token.py
+│   ├── resume_analyzer.py
+│   ├── ats_score.py
+│   ├── skill_gap.py
+│   └── job_recommender.py
+│
 └── README.md
 ```
 
 ---
 
-# ⚙ Installation
+# ⚙️ Installation & Setup
 
 ## Clone Repository
 
@@ -208,91 +193,69 @@ cd CareerPilot-AI
 
 ---
 
-# 🖥 Backend Setup
+# Backend Setup
 
-## Create Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
-source .venv/bin/activate
-```
-
----
-
-## Install Dependencies
+Navigate:
 
 ```bash
 cd backend
+```
 
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Create Environment File
-
-Create a file named
-
-```
-backend/.env
-```
-
-Add
-
-```env
-OPENROUTER_API_KEY=your_openrouter_api_key
-```
-
----
-
-## Run Backend
+Run backend:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Backend URL
+Backend runs on:
 
 ```
 http://127.0.0.1:8000
 ```
 
-Swagger Documentation
-
-```
-http://127.0.0.1:8000/docs
-```
-
 ---
 
-# 💻 Frontend Setup
+# Frontend Setup
 
-Open another terminal
+Navigate:
 
 ```bash
 cd frontend
+```
 
+Install packages:
+
+```bash
 npm install
 ```
 
-Run
+Run:
 
 ```bash
 npm run dev
 ```
 
-Frontend URL
+Frontend runs on:
 
 ```
 http://localhost:5173
@@ -300,122 +263,48 @@ http://localhost:5173
 
 ---
 
-# 🔒 Environment Variables
+# 🔌 API Endpoints
 
-Create
-
-```
-backend/.env
-```
-
-```
-OPENROUTER_API_KEY=your_openrouter_api_key
-```
-
----
-
-# 📸 Modules
-
-- 🏠 Home
-- 🔐 Login
-- 📝 Register
-- 📄 Resume Analyzer
-- 📊 Dashboard
-- 💼 AI Jobs
-- 🤖 AI Chat
-- 🎤 Interview Coach
-- 📜 History
-- 📋 Applications
-- 📝 Cover Letter
-- 👤 Profile
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /register | Register User |
+| POST | /login | User Login |
+| POST | /chat | AI Chat |
+| POST | /analyze-resume | Resume Analysis |
+| POST | /interview | Interview Preparation |
+| POST | /jobs | Job Recommendation |
+| POST | /skill-gap | Skill Gap Analysis |
+| POST | /resume-match | Resume Match Score |
+| GET | /dashboard | Career Dashboard |
+| GET | /history | Analysis History |
+| POST | /applications | Add Application |
+| GET | /applications | View Applications |
+| POST | /cover-letter | Generate Cover Letter |
 
 ---
 
-# 🔑 Protected APIs
+# 🎯 Future Enhancements
 
-- Dashboard
-- History
-- Resume Analyzer
-- Applications
-- Profile
-
----
-
-# 🚀 Deployment
-
-## Frontend
-
-Vercel
-
-https://career-pilot-25v1y1xmc-sonu-balagavi15s-projects.vercel.app
-
----
-
-## Backend
-
-Render
-
-https://careerpilot-ai-backend-aktd.onrender.com
-
-Swagger
-
-https://careerpilot-ai-backend-aktd.onrender.com/docs
-
----
-
-# 📈 Future Enhancements
-
-- Email Verification
-- Forgot Password
-- Resume PDF Export
-- Voice Interview Coach
-- PostgreSQL Database
-- Company Job APIs
-- Notifications
 - AI Resume Builder
-- Admin Dashboard
-- Analytics
+- Real-time Job API Integration
+- LinkedIn Profile Analyzer
+- Voice Interview Practice
+- Personalized Learning Recommendations
+- Mobile Application
 
 ---
 
-# 👨‍💻 Developed By
+# 👩‍💻 Developer
 
-## Sonu Parashuram Balagavi
+**Sonu Parashuram Balagavi**
 
-Bachelor of Engineering (Computer Science & Engineering)
+Computer Science Engineering Student
 
-AGM Rural College of Engineering and Technology, Hubballi
-
----
-
-# 📬 Connect With Me
-
-## LinkedIn
-
-https://www.linkedin.com/in/sonu-balagavi
-
-## GitHub
-
+GitHub:
 https://github.com/sonu-balagavi15
-
-## Email
-
-sonubalagavi@gmail.com
 
 ---
 
 # ⭐ Support
 
-If you found this project useful,
-
-⭐ Star this repository
-
-🍴 Fork it
-
-📢 Share it with others
-
----
-
-## 📄 License
-
-This project is developed for learning, academic projects, and portfolio purposes.
+If you like this project, consider giving it a ⭐ on GitHub.
