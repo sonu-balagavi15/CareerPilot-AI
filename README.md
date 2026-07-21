@@ -1,129 +1,196 @@
 # 🚀 CareerPilot AI
 
-An AI-powered Career Guidance and Placement Preparation Platform built using **React**, **FastAPI**, **SQLite**, and **Google Gemini AI**.
-
-CareerPilot AI helps students improve their resumes, prepare for interviews, discover suitable jobs, identify skill gaps, and generate AI-powered career content from a single platform.
+An AI-powered Career Guidance and Placement Preparation Platform that helps students analyze resumes, prepare for interviews, discover jobs, generate cover letters, and improve career skills using AI.
 
 ---
 
-## 📌 Features
+## 🌐 Live Demo
 
-### 🔐 Authentication
+### Frontend (Vercel)
+
+https://career-pilot-25v1y1xmc-sonu-balagavi15s-projects.vercel.app
+
+### Backend API (Render)
+
+https://careerpilot-ai-backend-aktd.onrender.com/docs
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/sonu-balagavi15/CareerPilot-AI
+
+---
+
+# 📌 Features
+
+## 🔐 Authentication
+
 - User Registration
 - User Login
 - JWT Authentication
 - Secure Password Hashing
+- Protected API Routes
 
-### 📄 Resume Analyzer
+---
+
+## 📄 Resume Analyzer
+
 - Upload Resume (PDF)
 - ATS Score Calculation
 - Resume Analysis using AI
-- Missing Skills Detection
 - Resume Improvement Suggestions
+- Missing Skills Detection
 
-### 📊 Dashboard
+---
+
+## 📊 Dashboard
+
 - Career Progress
-- Total Analyses
-- Completed Features
-- User Profile Summary
+- User Statistics
+- Profile Summary
+- AI Activity Overview
 
-### 💼 AI Job Recommendation
-- Job Suggestions based on Skills
-- Skill Matching
-- Career Recommendations
+---
 
-### 🎤 Interview Coach
-- AI-generated Interview Questions
-- Model Answers
-- Important Topics
-- Technical Interview Preparation
+## 💼 AI Job Recommendation
 
-### 🤖 AI Career Chat
-- Ask Career Questions
-- Programming Guidance
+- Job Suggestions
+- Skill-Based Recommendations
+- Career Guidance
+- Placement Opportunities
+
+---
+
+## 🎤 AI Interview Coach
+
+- Technical Interview Questions
+- HR Interview Questions
+- AI Generated Answers
+- Interview Preparation
+
+---
+
+## 🤖 AI Career Chat
+
+- Career Guidance
+- Programming Help
 - Placement Preparation
-- AI Assistance
+- AI Career Assistant
 
-### 📜 History
+---
+
+## 📜 History
+
 - Resume Analysis History
 - Interview History
-- Skill Gap History
+- AI Activity History
 
-### 📋 Job Application Tracker
+---
+
+## 📋 Job Application Tracker
+
 - Add Applications
 - Track Status
 - Application History
 
-### 📝 AI Cover Letter Generator
-- Generate Professional Cover Letters
-- Customized for Target Role
+---
 
-### 👤 Profile
+## 📝 AI Cover Letter Generator
+
+- Professional Cover Letter
+- Target Role Based
+- AI Generated Content
+
+---
+
+## 👤 User Profile
+
 - Personal Information
+- Career Goal
+- Skills
 - Target Role
-- Career Summary
-- Skills Overview
 
-### 🌙 UI Features
+---
+
+## 🌙 User Interface
+
 - Responsive Design
 - Modern Dashboard
-- Dark Mode
-- Professional User Interface
+- Professional UI
+- Dark Mode Support
 
 ---
 
 # 🛠 Tech Stack
 
 ## Frontend
+
 - React.js
 - Vite
-- CSS3
 - JavaScript
+- CSS3
+- HTML5
+
+---
 
 ## Backend
+
 - FastAPI
 - Python
-
-## Database
-- SQLite
 - SQLAlchemy
+- SQLite
+
+---
 
 ## Authentication
-- JWT
-- Passlib (Bcrypt)
 
-## AI
-- Google Gemini API
+- JWT
+- Passlib (bcrypt)
+
+---
+
+## AI Integration
+
+- OpenRouter API
+- GPT-4o Mini
+
+---
+
+## Deployment
+
+- Vercel (Frontend)
+- Render (Backend)
 
 ---
 
 # 📂 Project Structure
 
 ```
-CareerPilot-AI/
-
+CareerPilot-AI
 │
-├── frontend/
-│   ├── src/
-│   ├── public/
+├── backend
+│   ├── ai.py
+│   ├── auth.py
+│   ├── database.py
+│   ├── dependencies.py
+│   ├── job_recommender.py
+│   ├── jwt_token.py
+│   ├── main.py
+│   ├── models.py
+│   ├── resume_analyzer.py
+│   ├── resume_score.py
+│   ├── ats_score.py
+│   ├── skill_gap.py
+│   ├── requirements.txt
+│
+├── frontend
+│   ├── public
+│   ├── src
 │   ├── package.json
-│   └── vite.config.js
+│   ├── vite.config.js
 │
-├── uploads/
-│
-├── main.py
-├── models.py
-├── database.py
-├── auth.py
-├── jwt_token.py
-├── dependencies.py
-├── ai.py
-├── ats_score.py
-├── resume_analyzer.py
-├── resume_score.py
-├── skill_gap.py
-├── job_recommender.py
-├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -134,36 +201,62 @@ CareerPilot-AI/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/CareerPilot-AI.git
+git clone https://github.com/sonu-balagavi15/CareerPilot-AI.git
 
 cd CareerPilot-AI
 ```
 
 ---
 
-## Backend Setup
+# 🖥 Backend Setup
 
-Create Virtual Environment
+## Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate
-
-Windows
+### Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-Install Packages
+### macOS/Linux
 
 ```bash
+source .venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+cd backend
+
 pip install -r requirements.txt
 ```
 
-Run Backend
+---
+
+## Create Environment File
+
+Create a file named
+
+```
+backend/.env
+```
+
+Add
+
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+---
+
+## Run Backend
 
 ```bash
 uvicorn main:app --reload
@@ -175,7 +268,7 @@ Backend URL
 http://127.0.0.1:8000
 ```
 
-API Documentation
+Swagger Documentation
 
 ```
 http://127.0.0.1:8000/docs
@@ -183,17 +276,13 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Frontend Setup
+# 💻 Frontend Setup
 
-Go to frontend
+Open another terminal
 
 ```bash
 cd frontend
-```
 
-Install Packages
-
-```bash
 npm install
 ```
 
@@ -211,34 +300,66 @@ http://localhost:5173
 
 ---
 
-# 📸 Application Modules
+# 🔒 Environment Variables
 
-- Home
-- Login
-- Register
-- Resume Analyzer
+Create
+
+```
+backend/.env
+```
+
+```
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+---
+
+# 📸 Modules
+
+- 🏠 Home
+- 🔐 Login
+- 📝 Register
+- 📄 Resume Analyzer
+- 📊 Dashboard
+- 💼 AI Jobs
+- 🤖 AI Chat
+- 🎤 Interview Coach
+- 📜 History
+- 📋 Applications
+- 📝 Cover Letter
+- 👤 Profile
+
+---
+
+# 🔑 Protected APIs
+
 - Dashboard
-- AI Jobs
-- AI Chat
-- Interview Coach
 - History
+- Resume Analyzer
 - Applications
-- Cover Letter
 - Profile
 
 ---
 
-# 🔒 Authentication
+# 🚀 Deployment
 
-JWT Token Based Authentication
+## Frontend
 
-Protected APIs
+Vercel
 
-- Dashboard
-- Resume Analyzer
-- History
-- Applications
-- Skill Gap Analysis
+https://career-pilot-25v1y1xmc-sonu-balagavi15s-projects.vercel.app
+
+---
+
+## Backend
+
+Render
+
+https://careerpilot-ai-backend-aktd.onrender.com
+
+Swagger
+
+https://careerpilot-ai-backend-aktd.onrender.com/docs
 
 ---
 
@@ -247,17 +368,19 @@ Protected APIs
 - Email Verification
 - Forgot Password
 - Resume PDF Export
-- AI Mock Interview Voice Support
-- Notification System
+- Voice Interview Coach
 - PostgreSQL Database
+- Company Job APIs
+- Notifications
+- AI Resume Builder
 - Admin Dashboard
-- Company Job API Integration
+- Analytics
 
 ---
 
 # 👨‍💻 Developed By
 
-**Sonu Parashuram Balagavi**
+## Sonu Parashuram Balagavi
 
 Bachelor of Engineering (Computer Science & Engineering)
 
@@ -265,26 +388,34 @@ AGM Rural College of Engineering and Technology, Hubballi
 
 ---
 
-# 📧 Contact
+# 📬 Connect With Me
 
-Email
+## LinkedIn
 
-```
-sonubalagavi@gmail.com
-```
+https://www.linkedin.com/in/sonu-balagavi
 
-GitHub
+## GitHub
 
-```
 https://github.com/sonu-balagavi15
-```
 
-LinkedIn
+## Email
 
-```
-(Add your LinkedIn Profile URL)
-```
+sonubalagavi@gmail.com
 
 ---
 
-# ⭐ If you like this project, don't forget to star the repository!
+# ⭐ Support
+
+If you found this project useful,
+
+⭐ Star this repository
+
+🍴 Fork it
+
+📢 Share it with others
+
+---
+
+## 📄 License
+
+This project is developed for learning, academic projects, and portfolio purposes.
