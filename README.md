@@ -1,210 +1,315 @@
 # 🚀 CareerPilot AI
 
-> **An AI-Powered Career Assistant for Students and Job Seekers**
+<div align="center">
 
-CareerPilot AI is a full-stack web application that helps users improve their career readiness using Artificial Intelligence. It provides AI-powered resume analysis, ATS scoring, interview preparation, job recommendations, skill gap analysis, application tracking, and cover letter generation through an intuitive dashboard.
+## AI-Powered Career Assistant for Students & Job Seekers
+
+An intelligent full-stack career guidance platform that helps users improve their career readiness using Artificial Intelligence.
+
+[![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)](https://react.dev/)
+[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)](https://python.org/)
+[![Database](https://img.shields.io/badge/Database-SQLite-orange?logo=sqlite)](https://sqlite.org/)
+[![Deployment](https://img.shields.io/badge/Deploy-Vercel%20%7C%20Render-black)](https://vercel.com/)
+
+</div>
+
 
 ---
 
-## 🌐 Live Demo
+# 🌟 Overview
 
-### 🚀 Frontend
+**CareerPilot AI** is an AI-powered career assistant designed for students and job seekers.
+
+The platform provides personalized career support through:
+
+- Resume Analysis
+- ATS Score Prediction
+- AI Career Guidance
+- Interview Preparation
+- Job Recommendations
+- Skill Gap Analysis
+- Resume Matching
+- Application Tracking
+- AI Cover Letter Generation
+
+
+---
+
+# 🌐 Live Demo
+
+
+## 🚀 Frontend
+
 https://career-pilot-ai-chi.vercel.app
 
-### ⚡ Backend API (Swagger Docs)
+
+## ⚡ Backend API Documentation
+
 https://careerpilot-ai-backend-aktd.onrender.com/docs
 
-### 💻 GitHub Repository
+
+## 💻 GitHub Repository
+
 https://github.com/sonu-balagavi15/CareerPilot-AI
+
 
 ---
 
 # ✨ Features
 
-## 🔐 User Authentication
-- Secure User Registration
+
+## 🔐 Authentication
+
+- User Registration
 - User Login
-- JWT Authentication
-- Protected Dashboard
+- JWT Based Authentication
+- Protected Routes
+- Secure User Sessions
+
 
 ---
 
-## 📄 AI Resume Analyzer
-- Upload PDF/DOCX Resume
+# 📄 AI Resume Analyzer
+
+Upload your resume and get AI-powered feedback.
+
+Features:
+
+- PDF/DOCX Resume Upload
 - Resume Text Extraction
 - ATS Score Calculation
-- Skill Identification
-- Missing Skill Detection
-- AI Resume Suggestions
-- Personalized Learning Roadmap
+- Skills Detection
+- Missing Skills Identification
+- Resume Improvement Suggestions
+- Career Roadmap Generation
+
 
 ---
 
-## 📊 Career Dashboard
-- User Profile Overview
+# 📊 Career Dashboard
+
+Provides:
+
+- User Profile Information
 - Career Progress Tracking
-- Resume Analysis History
 - Completed Activities
+- Resume Analysis History
+
 
 ---
 
-## 🤖 AI Career Chat
+# 🤖 AI Career Chat
+
+AI assistant for:
+
 - Career Guidance
-- Technical Doubt Solving
-- AI Career Suggestions
-- Personalized Responses
+- Technical Questions
+- Learning Recommendations
+- Personalized Advice
+
 
 ---
 
-## 🎤 AI Interview Coach
+# 🎤 AI Interview Coach
+
+Helps candidates prepare for interviews.
+
+Features:
+
 - Role-Based Interview Questions
 - Sample Answers
 - Technical Topics
-- HR Interview Preparation
+- HR Preparation
+
 
 ---
 
-## 💼 AI Job Recommendation
+# 💼 AI Job Recommendation System
+
+Provides:
+
 - Skill-Based Job Suggestions
-- Career Role Recommendations
+- Suitable Career Roles
 - Beginner-Friendly Opportunities
 
----
-
-## 📈 Skill Gap Analysis
-- Compare Skills with Target Role
-- Missing Skill Identification
-- Learning Recommendations
 
 ---
 
-## 📑 Resume Match Score
-- Match Resume with Target Job
-- Resume Compatibility Percentage
+# 📈 Skill Gap Analyzer
+
+Analyzes:
+
+- Current Skills
+- Target Role Requirements
+- Missing Skills
+- Learning Suggestions
+
 
 ---
 
-## 📋 Application Tracker
-- Add Job Applications
-- Track Application Status
-- Manage Applied Companies
+# 📑 Resume Match Score
+
+Compare your resume skills with a target role.
+
+Provides:
+
+- Compatibility Score
+- Improvement Suggestions
+
 
 ---
 
-## ✉️ AI Cover Letter Generator
+# 📋 Application Tracker
+
+Manage job applications:
+
+- Add Applications
+- Track Status
+- Store Company Details
+- Monitor Job Search Progress
+
+
+---
+
+# ✉ AI Cover Letter Generator
+
 Generate professional cover letters using:
-- Name
-- Company
-- Role
+
+- Candidate Name
+- Company Name
+- Job Role
 - Skills
 
+
 ---
 
-# 🖼️ Project Screenshots
+# 🖼 Screenshots
+
 
 ## 🏠 Home Page
 
 ![Home](screenshots/homepage.png)
 
----
 
 ## 🤖 AI Chat
 
 ![AI Chat](screenshots/aichat%20page.png)
 
----
 
-## 💼 Job Recommendation
+## 💼 Job Recommendations
 
 ![Jobs](screenshots/job%20page.png)
 
----
 
 ## 📋 Applications
 
 ![Applications](screenshots/application.png)
 
----
 
 ## 👤 Profile
 
 ![Profile](screenshots/profilepage.png)
 
+
+
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
+
 
 ## Frontend
+
 - React.js
 - Vite
 - JavaScript
 - CSS3
 - Fetch API
 
+
 ## Backend
-- FastAPI
+
 - Python
+- FastAPI
 - SQLAlchemy
 - JWT Authentication
+- Passlib
+
 
 ## Database
+
 - SQLite
 
-## AI & NLP
-- AI API Integration
-- Resume Text Extraction
-- ATS Score Algorithm
-- Skill Gap Analysis
+
+## Artificial Intelligence
+
+- OpenRouter API
+- GPT-4o Mini
+- Resume NLP Processing
+- ATS Scoring Algorithm
+- AI Career Recommendations
+
 
 ## Deployment
-- Vercel (Frontend)
-- Render (Backend)
+
+Frontend:
+- Vercel
+
+Backend:
+- Render
+
 
 ---
 
 # 📂 Project Structure
 
+
 ```
 CareerPilot-AI
 │
 ├── backend
+│   │
 │   ├── main.py
+│   ├── ai.py
 │   ├── auth.py
+│   ├── jwt_token.py
 │   ├── database.py
 │   ├── models.py
+│   ├── dependencies.py
 │   ├── resume_analyzer.py
 │   ├── ats_score.py
 │   ├── skill_gap.py
 │   ├── resume_score.py
-│   ├── job_recommender.py
-│   └── ...
+│   └── job_recommender.py
 │
 ├── frontend
+│   │
 │   ├── src
+│   │   ├── App.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
 │   │   ├── Dashboard.jsx
-│   │   ├── ResumeUpload.jsx
-│   │   ├── Chat.jsx
+│   │   ├── ResumeAnalyzer.jsx
 │   │   ├── Jobs.jsx
-│   │   ├── Applications.jsx
-│   │   ├── CoverLetter.jsx
+│   │   ├── Chat.jsx
+│   │   ├── InterviewCoach.jsx
 │   │   ├── Profile.jsx
-│   │   └── ...
+│   │   ├── Applications.jsx
+│   │   └── CoverLetter.jsx
 │
 ├── screenshots
-│   ├── homepage.png
-│   ├── aichat page.png
-│   ├── job page.png
-│   ├── application.png
-│   └── profilepage.png
 │
 └── README.md
 ```
 
+
 ---
 
-# ⚙️ Installation
+# ⚙ Installation
+
 
 ## Clone Repository
+
 
 ```bash
 git clone https://github.com/sonu-balagavi15/CareerPilot-AI.git
@@ -212,135 +317,226 @@ git clone https://github.com/sonu-balagavi15/CareerPilot-AI.git
 cd CareerPilot-AI
 ```
 
+
 ---
 
-## Backend Setup
+# Backend Setup
+
+
+Navigate to backend:
 
 ```bash
 cd backend
 ```
 
-Create virtual environment
+
+Create virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-Activate
 
-Windows
+Activate environment:
+
+
+Windows:
 
 ```bash
 venv\Scripts\activate
 ```
 
-Install dependencies
+
+Install requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run FastAPI
+
+Create `.env` file:
+
+```
+OPENROUTER_API_KEY=your_api_key
+```
+
+
+Run backend:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Backend URL
+
+Backend:
 
 ```
 http://127.0.0.1:8000
 ```
 
-Swagger Documentation
+
+Swagger:
 
 ```
 http://127.0.0.1:8000/docs
 ```
 
+
+
 ---
 
-## Frontend Setup
+# Frontend Setup
+
+
+Go to frontend:
 
 ```bash
 cd frontend
 ```
 
-Install packages
+
+Install packages:
 
 ```bash
 npm install
 ```
 
-Run
+
+Run:
 
 ```bash
 npm run dev
 ```
 
-Frontend URL
+
+Frontend:
 
 ```
 http://localhost:5173
 ```
 
+
+
 ---
 
 # 🔌 API Endpoints
 
+
 | Method | Endpoint | Description |
-|---------|----------|-------------|
-| POST | `/register` | Register User |
-| POST | `/login` | User Login |
-| POST | `/chat` | AI Chat |
-| POST | `/analyze-resume` | Resume Analysis |
-| POST | `/interview` | AI Interview Coach |
-| POST | `/jobs` | Job Recommendations |
-| POST | `/skill-gap` | Skill Gap Analysis |
-| POST | `/resume-match` | Resume Match Score |
-| GET | `/dashboard` | Dashboard |
-| GET | `/history` | User History |
-| GET | `/applications` | Get Applications |
-| POST | `/applications` | Add Application |
-| POST | `/cover-letter` | Generate Cover Letter |
+|---|---|---|
+| POST | /register | Register User |
+| POST | /login | Login User |
+| POST | /chat | AI Chat |
+| POST | /analyze-resume | Resume Analyzer |
+| POST | /interview | Interview Coach |
+| POST | /jobs | Job Recommendation |
+| POST | /skill-gap | Skill Gap Analysis |
+| POST | /resume-match | Resume Match Score |
+| GET | /dashboard | Dashboard |
+| GET | /history | Analysis History |
+| GET | /applications | Get Applications |
+| POST | /applications | Add Application |
+| POST | /cover-letter | Cover Letter Generator |
+
 
 ---
 
 # 🚀 Future Enhancements
 
+- AI Voice Interview
 - Resume Builder
-- LinkedIn Profile Analysis
+- LinkedIn Profile Analyzer
 - Real-Time Job API Integration
-- AI Mock Interview with Voice
-- Resume Ranking
+- Resume Ranking System
 - Email Notifications
+- AWS Deployment
 - Multi-language Support
-- Cloud Deployment on AWS
+
+
+---
+
+# 🤝 Contributing
+
+
+Contributions are welcome.
+
+Steps:
+
+1. Fork the repository
+
+2. Create a new branch
+
+```
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```
+git commit -m "Added new feature"
+```
+
+4. Push changes
+
+```
+git push origin feature-name
+```
+
+5. Create Pull Request
+
 
 ---
 
 # 👨‍💻 Developer
 
-**Sonu Parashuram Balagavi**
 
-**Bachelor of Engineering (Computer Science & Engineering)**
+## Sonu Parashuram Balagavi
+
+Bachelor of Engineering  
+Computer Science & Engineering
+
 
 GitHub:
+
 https://github.com/sonu-balagavi15
 
+
 LinkedIn:
-_Add your LinkedIn profile URL here_
+
+Add your LinkedIn profile link
+
+
+Email:
+
+sonubalagavi@gmail.com
+
 
 ---
 
-# ⭐ If you found this project useful
+# 🙏 Acknowledgements
 
-Please consider giving this repository a **Star ⭐** on GitHub.
 
-It motivates me to build more open-source AI projects.
+- OpenRouter AI
+- FastAPI
+- React Community
+- SQLAlchemy
+- Vercel
+- Render
+
 
 ---
 
-## 📜 License
+# ⭐ Support
 
-This project is licensed under the **MIT License**.
+
+If you like this project, please give it a ⭐ on GitHub.
+
+Your support motivates further development!
+
+
+---
+
+# 📜 License
+
+
+This project is licensed under the MIT License.
