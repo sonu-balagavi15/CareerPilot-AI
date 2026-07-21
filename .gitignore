@@ -1,0 +1,58 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads
+uploads/
+backend/uploads/
+
+# Logs
+*.log
+
+# ==========================
+# Node.js
+# ==========================
+node_modules/
+npm-debug.log*
+
+# Build folders
+dist/
+build/
+
+# Vite
+.vite/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Misc
+# ==========================
+*.tmp
+*.bak
